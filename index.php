@@ -29,6 +29,7 @@
     </div>
     <div class="row justify-content-end">
         <a class="btn btn-outline-success" href="Login.php">Inicio de sesion</a>
+        <a class="btn btn-outline-success" href="registro.php">Registro</a>
     </div>
   </div>
 </nav>
