@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio_hotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acurame/Ejercicio_Hotel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acurame/Ejercicio_Hotel/issues"
+  },
+  "homepage": "https://github.com/Acurame/Ejercicio_Hotel#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
