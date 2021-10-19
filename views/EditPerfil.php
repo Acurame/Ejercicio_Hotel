@@ -2,6 +2,7 @@
 <?php include_once("../Model/db.php") ?>
 
 <?php
+
     if(isset($_GET['id'])){ 
     $id = $_GET['id'];
     $consult = "SELECT * FROM usuarios WHERE IdUsuario = $id";
@@ -13,9 +14,9 @@
             $password = $row['password'];
             $mail = $row['Correo'];
         }
-
-        
     }
+
+
     if(isset($_POST['save'])){
         $User = $_POST['User'];
         $Password = $_POST['passwd'];

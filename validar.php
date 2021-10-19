@@ -17,6 +17,7 @@ $consulta="SELECT*FROM usuarios WHERE NombreUsuario = '$usuario' and password = 
 $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_num_rows($resultado);
+
 if($filas == 1){
   $row = mysqli_fetch_array($resultado);
   $_SESSION['id']= $row['IdUsuario'];
@@ -27,7 +28,11 @@ if($filas == 1){
 
 if($filas == 1){
     echo $rol;
-    if($rol == '3')
+    if($rol == '1'){
+      header("location:indexadmin.php");
+    }else if($rol == '2'){
+      header("location:indexEmpleado.php");
+    }else if($rol == '3')
     {
       header("location:indexUsuario.php");
     }
