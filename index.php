@@ -23,9 +23,12 @@
           <a class="nav-link" href="#servicios">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link aling-end" href="#precios">Precio</a>
+          <a class="nav-link" href="#precios">Precio</a>
         </li>
       </ul>
+    </div>
+    <div class="row justify-content-end">
+        <a class="btn btn-outline-success" href="Login.php">Inicio de sesion</a>
     </div>
   </div>
 </nav>
