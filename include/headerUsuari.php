@@ -29,7 +29,7 @@
     </div>
     <div class="row justify-content-end px-5">
         <?php session_start() ?>
-        <a class="btn btn-outline-success" href="/views/EditPerfil.php"><?php echo $_SESSION['usuario'] ?></a>
+        <a class="btn btn-outline-success" href="/views/EditPerfil.php?id=<?php echo $_SESSION['id'] ?>"><?php echo $_SESSION['usuario'] ?></a>
     </div>
     <div class="row justify-content-end">
         <a class="btn btn-outline-success" href="Login.php">Inicio de sesion</a>

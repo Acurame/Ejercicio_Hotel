@@ -2,44 +2,46 @@
 <?php include_once("../Model/db.php") ?>
 
 <?php
-    session_start();
-    $id = $_SESSION['IdUsuario'];
-
+    if(isset($_GET['id'])){ 
+    $id = $_GET['id'];
     $consult = "SELECT * FROM usuarios WHERE IdUsuario = $id";
-    $error = mysqli_query($conexion,$consult);
+    $result = mysqli_query($conexion,$consult);
     
-    if(mysqli_num_rows($result)== 1){
-        $row = mysqli_fetch_array($result);
-        $user = $row['NombreUsuario'];
-        $password = $row['password'];
-        $mail = $row['Correo'];
+        if(mysqli_num_rows($result)== 1){
+            $row = mysqli_fetch_array($result);
+            $user = $row['NombreUsuario'];
+            $password = $row['password'];
+            $mail = $row['Correo'];
+        }
+
+        
     }
-
     if(isset($_POST['save'])){
-        $user = $_POST['name'];
-        $password = $_POST['passwd'];
-        $mail = $_POST['mail'];
+        $User = $_POST['User'];
+        $Password = $_POST['passwd'];
+        $Mail = $_POST['mail'];
 
-        $consult = "INSERT INTO usuarios(NombreUsuario, password, Correo) VALUES ('$user','$password','$mail') WHERE IdUsuario = $id";
+        $consult = "UPDATE usuarios SET NombreUsuario='$User',password='$Password',Correo='$Mail' WHERE IdUsuario = $id;";
         $error = mysqli_query($conexion,$consult);
+        header("Location: ../indexUsuario.php");
     }
     
     
 ?>
 
 <div class="container-lg my-4">
-    <form action="" method="post">
+    <form action="EditPerfil.php?id=<?php echo $_SESSION['id'] ?>" method="post">
         <div class="mb-3">
           <label for="" class="form-label"></label>
-          <input type="text" class="form-control" name="name" aria-describedby="helpId" placeholder="nombre de Usuario">
+          <input type="text" class="form-control" name="User" aria-describedby="helpId" value="<?php echo $user?>">
         </div>
         <div class="mb-3">
           <label for="" class="form-label"></label>
-          <input type="text" class="form-control" name="passwd" aria-describedby="helpId" placeholder="contraseña">
+          <input type="text" class="form-control" name="passwd" aria-describedby="helpId" value="<?php echo $password?>">
         </div>
         <div class="mb-3">
           <label for="" class="form-label"></label>
-          <input type="text" class="form-control" name="mail" aria-describedby="helpId" placeholder="Correo">
+          <input type="text" class="form-control" name="mail" aria-describedby="helpId" value="<?php echo $mail?>">
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <input type="submit" name="save" class="btn btn-primary" value="Modificar">
