@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#inicio">Inico</a>
+          <a class="nav-link active" aria-current="page" href="/indexUsuario.php">Inico</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#servicios">Servicios</a>
@@ -29,7 +29,7 @@
     </div>
     <div class="row justify-content-end px-5">
         <?php session_start() ?>
-        <a class="btn btn-outline-success" href="Login.php"><?php echo $_SESSION['usuario'] ?></a>
+        <a class="btn btn-outline-success" href="/views/EditPerfil.php"><?php echo $_SESSION['usuario'] ?></a>
     </div>
     <div class="row justify-content-end">
         <a class="btn btn-outline-success" href="Login.php">Inicio de sesion</a>
