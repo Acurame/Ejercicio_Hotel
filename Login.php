@@ -11,9 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-
-    
-
     <div class="container">
         <div class="row justify-content-center pt-5 mt-5 m-1">
             <div class="col-md-6 col-sm-8 col-xl-4 col-lg-5 formulario">
