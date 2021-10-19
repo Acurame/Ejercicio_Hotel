@@ -48,7 +48,7 @@
         </div>
     </div>
 
-    <div class="container-lg my-6" id="servicios">
+    <div class="container-lg my-6 " id="servicios">
     <div class="card-group">
   <div class="card">
     <img src="img/Card-2.jpg" class="card-img-top" alt="...">
