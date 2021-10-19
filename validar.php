@@ -9,7 +9,7 @@ $contraseña=$_POST['contraseña'];
 
 $_SESSION['usuario']=$usuario;
 
-
+$rol = 0;
 //$conexion=mysqli_connect("localhost","root","","examen");
 
 
@@ -20,19 +20,21 @@ $filas=mysqli_num_rows($resultado);
 if($filas == 1){
   $row = mysqli_fetch_array($resultado);
   $_SESSION['id']= $row['IdUsuario'];
-  
+  $rol = $row['rol'];
   
 }
 
 
 if($filas == 1){
-  
-    header("location:Model/ini.php");
+    echo $rol;
+    if($rol == '3')
+    {
+      header("location:indexUsuario.php");
+    }
 
 }else{
     ?>
     <?php include("index.php"); ?>
-    <script src="/sweetAlert.js"></script>
   <?php
 }
 mysqli_free_result($resultado);
