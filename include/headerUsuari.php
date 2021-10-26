@@ -19,12 +19,6 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/indexUsuario.php">Inico</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#servicios">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#precios">Precio</a>
-        </li>
       </ul>
     </div>
     <div class="row justify-content-end px-5">

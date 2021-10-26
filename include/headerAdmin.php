@@ -20,10 +20,10 @@
           <a class="nav-link active" aria-current="page" href="/views/usuariosAdmin.php">Usuarios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Empleado</a>
+          <a class="nav-link" href="/views/EmpleadoAdmin.php">Empleado</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cliente</a>
+          <a class="nav-link" href="/views/ClienteAmin.php">Cliente</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Factura</a>

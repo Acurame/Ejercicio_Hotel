@@ -1,4 +1,3 @@
-
 <?php include_once("../include/headerAdmin.php") ?>
 <?php include_once("../Model/db.php") ?>
 <div class="container-lg my-4">
@@ -59,46 +58,34 @@
     <thead>
       <tr>
         <th>ID</th>
-        <th>Nombre de Usuario</th>
-        <th>contraseña</th>
-        <th>Correo</th>
-        <th>Rol</th>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Nit</th>
+        <th>Diresion</th>
+        <th>Usuario</th>
         <th>Acciones</th>
       </tr>
     </thead>
     <tbody>
     <?php
-      $query = "SELECT * FROM usuarios";
+      $query = "SELECT IdClientes, NombreCliente, ApellidoCliente,Nit,Direccion, usuarios.NombreUsuario FROM clientes INNER JOIN usuarios ON clientes.IdUsuario = usuarios.IdUsuario";
       $result = mysqli_query($conexion, $query);
       while($row = mysqli_fetch_array($result)){
-      if($row['rol'] != 4){
       ?>
         <tr>
-          <td><?php echo $id = $row['IdUsuario'] ?></td>
+          <td><?php echo $id = $row['IdClientes'] ?></td>
+          <td><?php echo $row['NombreCliente'] ?></td>
+          <td><?php echo $row['ApellidoCliente'] ?></td>
+          <td><?php echo $row['Nit'] ?></td>
+          <td><?php echo $row['Direccion'] ?></td>
           <td><?php echo $row['NombreUsuario'] ?></td>
-          <td><?php echo $row['password'] ?></td>
-          <td><?php echo $row['Correo'] ?></td>
-          <td><?php switch($row['rol']){
-            case 1:
-              echo 'Administrador';
-              break;
-            case 2:
-              echo 'Personal';
-              break;
-            case 3:
-              echo 'Usuario';
-              break;
-            case 0:
-              echo 'Inactiva';
-              break;
-            } ?>
           </td>
           <th>
-            <a href="../Model/Usuarios/Editar.php?id=<?php echo $row['IdUsuario'] ?>" class="btn btn-success btn-lg"> Editar</a>
-            <a href="../Model/Usuarios/Eliminar.php?id=<?php echo $row['IdUsuario'] ?>" class="btn btn-success btn-lg"> Eliminar</a>
+            <a href="" class="btn btn-success btn-lg"> Editar</a>
+            <a href="" class="btn btn-success btn-lg"> Eliminar</a>
           </th>
         </tr>
-      <?php } }?>
+      <?php  }?>
     </tbody>
   </table>
 </div>

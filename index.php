@@ -27,8 +27,10 @@
         </li>
       </ul>
     </div>
-    <div class="row justify-content-end">
-        <a class="btn btn-outline-success" href="Login.php">Inicio de sesion</a>
+    <div class="row justifyc-content-end px-1">
+      <a class="btn btn-outline-success " href="Login.php">Inicio de sesion</a>
+    </div>
+    <div class="row justify-content-end px-5">
         <a class="btn btn-outline-success" href="registro.php">Registro</a>
     </div>
   </div>
