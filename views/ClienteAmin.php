@@ -1,8 +1,8 @@
 <?php include_once("../include/headerAdmin.php") ?>
 <?php include_once("../Model/db.php") ?>
-<div class="container-lg my-4">
+<div class="container-lg my-4" style="padding-top: 5%">
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#Crear">
+<button type="button" class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#Crear">
   Crear
 </button>
 
@@ -54,8 +54,8 @@
 </div>
 
 <div class="container-lg my-4">
-  <table class="table table-dark">
-    <thead>
+  <table class="table">
+    <thead class="table-dark">
       <tr>
         <th>ID</th>
         <th>Nombre</th>
@@ -81,8 +81,8 @@
           <td><?php echo $row['NombreUsuario'] ?></td>
           </td>
           <th>
-            <a href="" class="btn btn-success btn-lg"> Editar</a>
-            <a href="" class="btn btn-success btn-lg"> Eliminar</a>
+            <a href="" class="btn btn-warning btn-lg"> Editar</a>
+            <a href="" class="btn btn-danger btn-lg"> Eliminar</a>
           </th>
         </tr>
       <?php  }?>
