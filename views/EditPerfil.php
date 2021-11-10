@@ -30,7 +30,7 @@
     
 ?>
 
-<div class="container-lg my-4">
+<div class="container-lg my-4" style="padding-top: 5%">
     <form action="EditPerfil.php?id=<?php echo $_SESSION['id'] ?>" method="post">
         <div class="mb-3">
           <label for="" class="form-label"></label>

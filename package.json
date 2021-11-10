@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Acurame/Ejercicio_Hotel#readme",
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "sweetalert": "^2.1.2"
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.1.10"
   }
 }

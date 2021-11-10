@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/sweetalert2/dist/sweetalert2.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,9 +32,8 @@
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <input type="submit" name="save" class="btn-block btn btn-outline-success" value="Ingresar">
                     </div>
-                    
                     </div>
-                   
+
                 </form>
         </div>
     </div>

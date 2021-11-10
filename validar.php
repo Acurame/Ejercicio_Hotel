@@ -40,6 +40,7 @@ if($filas == 1){
 }else{
     ?>
     <?php include("index.php"); ?>
+    <script src="/sweetAlert.js"></script>
   <?php
 }
 mysqli_free_result($resultado);
