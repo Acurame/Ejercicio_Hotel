@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <title>Document</title>
 </head>
-<body class="bg-black">
+<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Mira Mar</a>
