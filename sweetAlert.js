@@ -1,8 +1,5 @@
-
-function newFunction() {
-  Swal.fire({
-    icon: 'error',
-    title: 'Oops...',
-    text: 'CREDENCIALES INCORRECTAS',
-  });
-}
+Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'CREDENCIALES INCORRECTAS',
+})

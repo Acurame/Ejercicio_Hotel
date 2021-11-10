@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/sweetalert2/dist/sweetalert2.css">
     <title>Document</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
           <a class="nav-link" href="#">Factura</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Habitaciones</a>
+          <a class="nav-link" href="/views/HabitacionesAdmin.php">Habitaciones</a>
         </li>
       </ul>
     </div>

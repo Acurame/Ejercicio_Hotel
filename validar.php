@@ -36,12 +36,12 @@ if($filas == 1){
     {
       header("location:indexUsuario.php");
     }
-
-}else{
-    ?>
-    <?php include("index.php"); ?>
-    <script src="/sweetAlert.js"></script>
-  <?php
-}
+  }
+  else
+  {
+  
+    include("Login.php");
+    echo '<script src="/sweetAlert.js"></script>';
+  }
 mysqli_free_result($resultado);
 mysqli_close($conexion);
