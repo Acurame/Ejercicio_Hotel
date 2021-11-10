@@ -43,7 +43,6 @@ try{
     $mail->Subject = 'Bienvenidos a Hotel Mira Mar';
    $mail->Body = '<h1 style="text-align: center;">Bienvenidos a Hotel Mira Mar</h1><br><br><div class="d-grid gap-2 col-6 mx-auto><button type="button" class="btn btn-success" data-bs-dismiss="modal"><a href="#" class="btn btn-warning btn-lg">Validar Cuenta</a></div>';
     //$mail->Body = $password;
-	
 
  //   $mail->Body    = $mailContent ;
     $mail->send();
