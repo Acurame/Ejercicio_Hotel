@@ -3,7 +3,7 @@
 <?php include_once("../Model/db.php") ?>
 <div class="container-lg my-4">
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#Crear">
+<button type="button" class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#Crear">
   Crear
 </button>
 
@@ -55,8 +55,8 @@
 </div>
 
 <div class="container-lg my-4">
-  <table class="table table-dark">
-    <thead>
+  <table class="table ">
+    <thead class="table-dark">
       <tr>
         <th>ID</th>
         <th>Nombre de Usuario</th>
@@ -94,8 +94,8 @@
             } ?>
           </td>
           <th>
-            <a href="../Model/Usuarios/Editar.php?id=<?php echo $row['IdUsuario'] ?>" class="btn btn-success btn-lg"> Editar</a>
-            <a href="../Model/Usuarios/Eliminar.php?id=<?php echo $row['IdUsuario'] ?>" class="btn btn-success btn-lg"> Eliminar</a>
+            <a href="../Model/Usuarios/Editar.php?id=<?php echo $row['IdUsuario'] ?>" class="btn btn-warning btn-lg"> Editar</a>
+            <a href="../Model/Usuarios/Eliminar.php?id=<?php echo $row['IdUsuario'] ?>" class="btn btn-danger btn-lg"> Eliminar</a>
           </th>
         </tr>
       <?php } }?>

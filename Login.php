@@ -21,17 +21,17 @@
                     </div>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                        <input type="text" class="form-control" name="usuario" placeholder="Ingrese nombre de usuario..." aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" name="usuario" placeholder="Usuario..." aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-file-earmark-lock"></i></span>
-                        <input type="password" class="form-control" name="contraseña" placeholder="Ingrese nombre de Contraseña..." aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="password" class="form-control" name="contraseña" placeholder="Contraseña..." aria-label="Username" aria-describedby="basic-addon1">
                     </div>
     
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <input type="submit" name="save" class="btn-block btn btn-outline-success" value="Ingresar">
                     </div>
-                  
+                    
                     </div>
                    
                 </form>

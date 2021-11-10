@@ -7,40 +7,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
 <body>
 
-<div class="container">
-        <div class="row justify-content-center pt-5 mt-5 m-1">
-            <div class="col-md-6 col-sm-8 col-xl-4 col-lg-5 formulario">
+    <div class="banner-image-Registro w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="registro">
             <form action="validarRegistro.php" method="post">
-                    <div class="form-group text-center pt-3">
-                        <h1 class="text-dark">INGRESO</h1>
-                    </div>
-                    <div class="form-group mx-sm-4 pt-3">
-                    <p>Usuario <input type="text" class="form-control" placeholder="Ingrese su Usuario" name="user"></p>
-                    </div>
-                    <div class="form-group mx-sm-4 pb-3">
-                    <p>Contraseña <input type="text" class="form-control" placeholder="Ingrese su Contraseña" name="passwd"></p>
-                    </div>
-
-                    <div class="form-group mx-sm-4 pb-3">
-                    <p>Correo <input type="text" class="form-control" placeholder="Ingrese su Correo" name="mail"></p>
-                    </div>
-                 
-                    <div class="form-group mx-sm-4 pb-2">
-                        <input type="submit" name="save" class="btn btn-block ingresar" value="Registrar">
-                    </div>
-                  
-                    </div>
-                   
-                </form>
-            </div>
+                <div class="form-group text-center pt-3">
+                    <h1 class="text-white">INGRESO</h1>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
+                    <input type="text" class="form-control" name="user" placeholder="Usuario..." aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-file-earmark-lock"></i></span>
+                    <input type="password" class="form-control" name="passwd" placeholder="Contraseña..." aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-chat-right-dots"></i></span>
+                    <input type="text" class="form-control" name="mail" placeholder="Correo..." aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <input type="submit" name="save" class="btn-block btn btn-outline-success" value="Registrar">
+                </div>
+                
+                </div>
+            </form>
         </div>
     </div>
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
