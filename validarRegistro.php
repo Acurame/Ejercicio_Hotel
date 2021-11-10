@@ -43,7 +43,6 @@ try{
     $mail->Subject = 'Bienvenidos a Hotel Mira Mar';
    $mail->Body = "Nombre de usuario es: ". $user . "\nla contra es: " . $password;
     //$mail->Body = $password;
-	
 
  //   $mail->Body    = $mailContent ;
     $mail->send();
