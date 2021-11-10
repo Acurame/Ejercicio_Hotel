@@ -40,8 +40,8 @@ try{
   //  $mail->addReplyTo('jhon56489754@gmail.com');
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = '<h1 style="text-align: center;">Bienvenidos a Hotel Mira Mar</h1><br><br><div class="d-grid gap-2 col-6 mx-auto><button type="button" class="btn btn-success" data-bs-dismiss="modal"><a href="#" class="btn btn-warning btn-lg">Validar Cuenta</a></div>';
-   $mail->Body = "Nombre de usuario es: ". $user . "\nla contra es: " . $password;
+    $mail->Subject = 'Bienvenidos a Hotel Mira Mar';
+   $mail->Body = '<h1 style="text-align: center;">Bienvenidos a Hotel Mira Mar</h1><br><br><div class="d-grid gap-2 col-6 mx-auto><button type="button" class="btn btn-success" data-bs-dismiss="modal"><a href="#" class="btn btn-warning btn-lg">Validar Cuenta</a></div>';
     //$mail->Body = $password;
 	
 
