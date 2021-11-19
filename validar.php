@@ -8,7 +8,6 @@ $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 
 $_SESSION['usuario']=$usuario;
-
 $rol = 0;
 //$conexion=mysqli_connect("localhost","root","","examen");
 

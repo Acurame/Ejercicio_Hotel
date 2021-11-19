@@ -9,25 +9,29 @@
     <title>Document</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-md-3">
+  <div class="container">
     <a class="navbar-brand" href="#">Mira Mar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
     <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="mx-auto"></div>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Cliente</a>
+          <a class="nav-link" href="/views/EmpleadoAdmin.php">Empleado</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Factura</a>
+          <a class="nav-link" href="/views/ClienteAmin.php">Cliente</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/views/HabitacionesAdmin.php">Habitaciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cotizacion</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Reservaciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Habitaciones</a>
         </li>
       </ul>
     </div>

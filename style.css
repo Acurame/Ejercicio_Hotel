@@ -11991,4 +11991,13 @@ fieldset:disabled .btn {
   padding: 50px;
   border-radius: 25px;
 }
+
+.imgCard {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1%;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
