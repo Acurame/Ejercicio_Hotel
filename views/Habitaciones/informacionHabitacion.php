@@ -1,4 +1,4 @@
-<?php include_once("../include/headerUsuari.php") ?>
+<?php include_once("../../assets/header.php") ?>
 
 <div class="w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="container">
@@ -18,4 +18,4 @@
         </div>
     </div>
 </div>
-<?php include_once("../include/fooder.php") ?>
+<?php include_once("../../assets/fooder.php") ?>

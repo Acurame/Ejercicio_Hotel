@@ -1,5 +1,5 @@
-<?php include_once("../include/headerUsuari.php") ?>
-<?php include_once("../Model/db.php") ?>
+<?php include_once("../../assets/header.php") ?>
+<?php include_once("../../Model/db.php") ?>
 
 <?php
 
@@ -51,4 +51,4 @@
 </div>
 
 
-<?php include_once("../include/fooder.php") ?>
+<?php include_once("../../include/fooder.php") ?>

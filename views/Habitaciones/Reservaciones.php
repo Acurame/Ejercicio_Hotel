@@ -1,4 +1,4 @@
 <?php
-include("../include/headerUsuari.php");
+include("../../assets/header.php");
 
-include("../include/fooder.php");
+include("../../assets/fooder.php");

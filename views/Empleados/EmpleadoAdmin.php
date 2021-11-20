@@ -1,6 +1,6 @@
 
-<?php include_once("../include/headerAdmin.php") ?>
-<?php include_once("../Model/db.php") ?>
+<?php include_once("../../assets/header.php") ?>
+<?php include_once("../../Model/db.php") ?>
 <div class="container-lg my-4" style="padding-top: 5%">
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#Crear">
@@ -83,4 +83,4 @@
   </table>
 </div>
 
-<?php include_once("../include/fooder.php") ?>
+<?php include_once("../../assets/fooder.php") ?>

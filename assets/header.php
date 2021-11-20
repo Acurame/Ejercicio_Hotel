@@ -25,16 +25,25 @@
                         <a href="#sobre" class="nav-link text-white">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Servicios" class="nav-link text-white">Usuarios</a>
+                        <a href="#Servicios" class="nav-link text-white">Empleados</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Contactenos" class="nav-link text-white">Contactanos</a>
+                        <a href="#Contactenos" class="nav-link text-white">Facturas</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/Login.php" class="nav-link text-white">Inicio de Sesión</a>
+                        <a href="/Login.php" class="nav-link text-white">Mantenimiento</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/registro.php" class="nav-link text-white">Registro</a>
+                        <a href="/registro.php" class="nav-link text-white">Habitaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/registro.php" class="nav-link text-white">Objetos Perdidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/registro.php" class="nav-link text-white">Asistencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/registro.php" class="nav-link text-white">Cotisasiones</a>
                     </li>
                 </ul>
             </div>
