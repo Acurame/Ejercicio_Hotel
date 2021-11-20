@@ -22,25 +22,20 @@ if($filas == 1){
   $_SESSION['id']= $row['IdUsuario'];
   $rol = $row['rol'];
   
+  switch($rol){
+    case 1:
+        header("location: ../Clientes/home.php");
+      break;
+    case 2:
+        header("location: ../Empleados/home.php");
+      break;
+    default:
+        header("location: ../views/Login.php");
+        echo '<script src="/sweetAlert.js"></script>';
+      break;
+  }
+
 }
 
-
-if($filas == 1){
-    echo $rol;
-    if($rol == '1'){
-      header("location:indexadmin.php");
-    }else if($rol == '2'){
-      header("location:indexEmpleado.php");
-    }else if($rol == '3')
-    {
-      header("location:indexUsuario.php");
-    }
-  }
-  else
-  {
-  
-    include("Login.php");
-    echo '<script src="/sweetAlert.js"></script>';
-  }
 mysqli_free_result($resultado);
 mysqli_close($conexion);
