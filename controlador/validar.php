@@ -5,7 +5,7 @@ include("../Model/db.php");
 
 session_start();
 $usuario=$_POST['usuario'];
-$contraseña=$_POST['contraseña'];
+$contraseña=$_POST['password'];
 
 $_SESSION['usuario']=$usuario;
 $rol = 0;
@@ -24,11 +24,13 @@ if($filas == 1){
   
   switch($rol){
     case 1:
-        header("location: ../Clientes/home.php");
+        header("location: ../views/Clientes/home.php");
       break;
+
     case 2:
-        header("location: ../Empleados/home.php");
+        header("location: ../views/Empleados/home.php");
       break;
+
     default:
         header("location: ../views/Login.php");
         echo '<script src="/sweetAlert.js"></script>';

@@ -22,10 +22,10 @@
                         <a href="#" class="nav-link text-white">Incio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#sobre" class="nav-link text-white">Sobre nosotros</a>
+                        <a href="#sobre" class="nav-link text-white">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Servicios" class="nav-link text-white">Servicios</a>
+                        <a href="#Servicios" class="nav-link text-white">Usuarios</a>
                     </li>
                     <li class="nav-item">
                         <a href="#Contactenos" class="nav-link text-white">Contactanos</a>
