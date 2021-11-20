@@ -19,6 +19,7 @@ $filas=mysqli_num_rows($resultado);
 if($filas == 1){
   $row = mysqli_fetch_array($resultado);
   $_SESSION['id']= $row['IdUsuario'];
+  $_SESSION['rol']= $row['rol'];
   $rol = $row['rol'];
   
   switch($rol){
