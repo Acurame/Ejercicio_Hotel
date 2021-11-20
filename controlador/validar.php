@@ -1,7 +1,7 @@
 
 <?php
 //include('db.php');
-include("Model/db.php"); 
+include("../Model/db.php"); 
 
 session_start();
 $usuario=$_POST['usuario'];

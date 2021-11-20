@@ -1,6 +1,6 @@
 <?php
 
-include("Model/db.php"); 
+include("../Model/db.php"); 
 
 if(isset($_POST['save'])){
     $user = $_POST['user'];
