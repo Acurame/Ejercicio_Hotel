@@ -1,12 +1,11 @@
-
 <?php
 //include('db.php');
 include("../Model/db.php"); 
 
-session_start();
-$usuario=$_POST['usuario'];
-$contraseña=$_POST['password'];
 
+$usuario=$_POST['usuario'];
+$contraseña=$_POST['contraseña'];
+session_start();
 $_SESSION['usuario']=$usuario;
 $rol = 0;
 //$conexion=mysqli_connect("localhost","root","","examen");

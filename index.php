@@ -34,7 +34,7 @@
                         <a href="../views/Login.php" class="nav-link text-white">Inicio de Sesión</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../views/registro.php" class="nav-link text-white">Registro</a>
+                        <a href="../views/registrar.php" class="nav-link text-white">Registro</a>
                     </li>
                 </ul>
             </div>
