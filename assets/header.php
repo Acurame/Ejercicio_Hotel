@@ -31,7 +31,7 @@
                         <a href="#Contactenos" class="nav-link text-white">Facturas</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/Login.php" class="nav-link text-white">Mantenimiento</a>
+                        <a href="/views/Habitaciones/mantenimiento.php" class="nav-link text-white">Mantenimiento</a>
                     </li>
                     <li class="nav-item">
                         <a href="/registro.php" class="nav-link text-white">Habitaciones</a>
