@@ -32,7 +32,7 @@
                       
                         <div class="d-flex justify-content-around">
                             <button type="submit" class="btn btn-outline-light flex-grow-1 mr-2">Ingresar</button>
-                            <a href="../index.php" class="btn btn-outline-light flex-grow-1 ml-2">Canselar</a>
+                            <a href="../index.php" class="btn btn-outline-light flex-grow-1 ml-2">Cancelar</a>
                         </div>
                     </form>
                 </div>
