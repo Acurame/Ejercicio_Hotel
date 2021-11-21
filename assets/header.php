@@ -19,10 +19,10 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="/vistas/<?php session_start(); if($_SESSION['rol'] == 1){echo "Clientes";}else if($_SESSION['rol'] == 2){echo "Empleado";} ?>/home.php" class="nav-link text-white">Incio</a>
+                        <a href="/views/<?php session_start(); if($_SESSION['rol'] == 1){echo "Clientes";}else if($_SESSION['rol'] == 2){echo "Empleados";} ?>/home.php" class="nav-link text-white">Incio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Clientes</a>
+                        <a href="/views/Clientes/Cliente.php" class="nav-link text-white">Clientes</a>
                     </li>
                     <li class="nav-item">
                         <a href="#Servicios" class="nav-link text-white">Empleados</a>
@@ -44,6 +44,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="/registro.php" class="nav-link text-white">Cotisasiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/controlador/Logout.php" class="nav-link text-white">Cerrar Sesión</a>
                     </li>
                 </ul>
             </div>

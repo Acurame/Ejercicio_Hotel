@@ -90,4 +90,4 @@
   </table>
 </div>
 
-<?php include_once("../../include/fooder.php") ?>
+<?php include_once("../../assets/fooder.php") ?>
