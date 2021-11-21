@@ -4,12 +4,13 @@ include("../Model/db.php");
 
 if(isset($_POST['save'])){
     $user = $_POST['user'];
+  
     $password = $_POST['passwd'];
     $email = $_POST['mail'];
     $direcion = "../img/";
     mkdir($direcion . $user);
    
-    $consult = "INSERT INTO usuarios(NombreUsuario, password, Correo) VALUES ('$user','$password','$email')";
+    $consult = "INSERT INTO usuarios(NombreUsuario, password, Correo, rol) VALUES ('$user','$password','$email','2')";
     $error = mysqli_query($conexion,$consult);
 
         if(!$error){
@@ -20,9 +21,9 @@ if(isset($_POST['save'])){
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
+require '../assets/PHPMailer/Exception.php';
+require '../assets/PHPMailer/PHPMailer.php';
+require '../assets/PHPMailer/SMTP.php';
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try{
 
