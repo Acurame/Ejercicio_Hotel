@@ -2,16 +2,26 @@
 
 include("../Model/db.php"); 
 
+$identific = rand(1000,9999);
+
 if(isset($_POST['save'])){
     $user = $_POST['user'];
-  
     $password = $_POST['passwd'];
     $email = $_POST['mail'];
+    $nombreclient = $_POST['nombreclient'];
+    $apellidoclient = $_POST['apellidoclient'];
+    $nit = $_POST['nit'];
+    $direccion = $_POST['direccion'];
     $direcion = "../img/";
     mkdir($direcion . $user);
    
-    $consult = "INSERT INTO usuarios(NombreUsuario, password, Correo, rol) VALUES ('$user','$password','$email','2')";
+
+    $consult = "INSERT INTO usuarios(IdUsuario,NombreUsuario, password, Correo, rol) VALUES ('$identific','$user','$password','$email','2')";
     $error = mysqli_query($conexion,$consult);
+
+    $consulta2 = "INSERT INTO clientes( NombreCliente, ApellidoCliente, Nit, Direccion, IdUsuario) VALUES ('$nombreclient','$apellidoclient','$nit','$direccion','$identific')";
+    $error2 = mysqli_query($conexion,$consulta2);
+
 
         if(!$error){
             die("Error");

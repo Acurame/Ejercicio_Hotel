@@ -46,7 +46,7 @@
                         </div>
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill"></i></span>
-                            <input type="password" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="password" class="form-control" placeholder="Contraseña" aria-label="Username" name="identific" aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill"></i></span>
