@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
-            <a href="#" class="navbar-brand">Hotel MiraMar</a>
+            <a href="#" class="navbar-brand logo">Hotel Mira Mar S.A</a>
             <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +42,7 @@
 </nav>
     <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
         <div class="content text-center">
-            <h1 class="text-white">Hotel Mira Mar</h1>
+            <h1 class="text-white logo">Hotel Mira Mar S.A</h1>
         </div>
     </div>
 
