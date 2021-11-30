@@ -14,7 +14,7 @@
                 <h5 class="modal-title">Crear Aviso Objeto Perdido</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="../Model/objeto/registroObjeto.php" method="post">
+            <form action="../Model/objeto/vistaobjeto.php" method="post">
             <div class="modal-body">
                     <div class="mb-3">
                       <label for="" class="form-label"></label>
