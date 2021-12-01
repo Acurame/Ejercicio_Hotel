@@ -22,15 +22,15 @@
                     <form action="../controlador/validarRegistro.php" method="post" class="mb-5">
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                            <input type="text" class="form-control" placeholder="Mi Nombre" aria-label="Username"  aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="Mi Nombre" aria-label="Username"  name="nombreclient" aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                            <input type="text" class="form-control" placeholder="Mis Apelidos" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="Mis Apelidos" aria-label="Username" name="apellidoclienty" aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
-                            <input type="text" class="form-control" placeholder="NIT" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="NIT" aria-label="Username" name="nit" aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone-fill"></i></span>

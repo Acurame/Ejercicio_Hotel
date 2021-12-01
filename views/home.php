@@ -1,2 +1,5 @@
-<?php include_once("../../header.php") ?>
-<?php include_once("../../fooder.php") ?>
+
+<?php include("../assets/header.php")?>
+
+<?php include("../assets/fooder.php") ?>
+

@@ -6,7 +6,7 @@ $identific = rand(1000,9999);
 
 if(isset($_POST['save'])){
     $user = $_POST['user'];
-    $password = $_POST['passwd'];
+    $password = $_POST['password'];
     $email = $_POST['mail'];
     $nombreclient = $_POST['nombreclient'];
     $apellidoclient = $_POST['apellidoclient'];
