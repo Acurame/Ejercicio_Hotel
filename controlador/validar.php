@@ -24,11 +24,11 @@ if($filas == 1){
   
   switch($rol){
     case 1:
-        header("location: ../views/Clientes/home.php");
+        header("location: ../views/home.php");
       break;
 
     case 2:
-        header("location: ../views/Empleados/home.php");
+        header("location: ../views/home.php");
       break;
 
     default:

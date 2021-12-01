@@ -19,7 +19,7 @@
                 </div>
                 <div class="text-white text-center px-lg-5 py-lg-4 p-4 w-100 aling-self-center">
                     <h1 class="mb-4">Bienvenido a Hotel Mira Mar S.A</h1>
-                    <form action="../controlador/validar.php" method="post" class="mb-5">
+                    <form action="/controlador/validar.php" method="post" class="mb-5">
                         <div class="input-group mb-4">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
                             <input type="text" class="form-control" placeholder="Mi Usuario.." name="usuario" aria-label="Username" aria-describedby="basic-addon1">
